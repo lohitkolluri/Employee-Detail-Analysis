@@ -1,4 +1,4 @@
-# Employee HR Data Analysis
+# Playing with Employee Details
 
 This repository contains Python code for analyzing employee HR data using Pandas, NumPy, and Matplotlib. Here's a breakdown of what the code does:
 
