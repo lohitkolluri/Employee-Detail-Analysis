@@ -1,43 +1,39 @@
-# Playing with Employee Details
+<h1 align="center" id="title">Employee Detail Analysis</h1>
 
-This repository contains Python code for analyzing employee HR data using Pandas, NumPy, and Matplotlib. The code addresses specific questions related to employee salaries and presents the results through visualizations.
+<p id="description">This repository contains Python code for analyzing employee HR data using Pandas NumPy and Matplotlib. The code addresses specific questions related to employee salaries and presents the results through visualizations.</p>
 
-## Instructions
+<h2>🛠️ Installation Steps:</h2>
 
-1. **Install Required Libraries:**
-   - Ensure you have the necessary libraries installed:
-     ```bash
-     pip install pandas numpy matplotlib
-     ```
+<p>1. Install Required Libraries:</p>
 
-2. **Load the Dataset:**
-   - Mount Google Drive and read the CSV file containing employee details.
+```
+  pip install pandas numpy matplotlib
+```
 
-3. **Run the Code:**
-   - Execute the code to obtain answers to the provided questions.
+<p>2. Load the Dataset:</p>
 
-## Results
+```
+Mount Google Drive and read the CSV file containing employee details.
+```
 
-### Q1: Salary Analysis by Department
+<p>3. Run the Code:</p>
 
-- **Sales Department:**
-  - Variance: 3,735,138,532.29
-  - Standard Deviation: 61,115.78
-  - IQR: 49,504.5
+```
+Execute the code to obtain answers to the provided questions.
+```
 
-- **Product Management Department:**
-  - Variance: 3,981,091,028.89
-  - Standard Deviation: 63,095.89
-  - IQR: 49,403.25
+  
+  
+<h2>💻 Built with</h2>
 
-### Q2: Salary Range in IT Department
+Technologies used in the project:
 
-- Range: 389,930
+*   Pandas
+*   NumPy
+*   Matplotlib
+*   Google Colab
+*   Google Drive Integration
 
-### Q3: Salary Distribution (Boxplot)
+<h2>🛡️ License:</h2>
 
-<img src="boxplot.png" alt="Boxplot" width="400">
-
-### Q4: Feature with the Highest Standard Deviation
-
-- Feature: Salary_INR
+This project is licensed under the [MIT License](LICENSE)
